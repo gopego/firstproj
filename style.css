@@ -1,0 +1,128 @@
+*, HTML, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.fContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: lightslategray;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-display: 20px;
+    width: 100%;
+    height: 80px;
+    background-color: #222;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.brand > div > a>  img {
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+}
+
+.firstname {
+    color: white;
+    font-weight: 700;
+}
+
+.lastname {
+    color: green;
+    padding-left: 4px;
+    font-weight: 400;
+}
+
+.navigator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigator > li{
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigator >li > a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navigator > li > a:hover {
+    color: green;
+    transition: all .3s ease-in-out
+}
+
+/* .navigator > input[type=text] {
+    float: right;
+    padding: 8px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    
+}
+
+.navigator > button[type=submit] {
+    float: right;
+    padding: 8px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    
+} */
+
+
+
+.active {
+    background-color: green;
+    color: white;
+    padding: 15px;
+}
+
+.navigator .search-container {
+    float: right;
+}
+
+.navigator input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    margin-left: 15px;
+    font-size: 17px;
+    border: none;
+  }
+
+ .navigator .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .navigator .search-container button:hover {
+    background: #ccc;
+  }
+
+.active:hover{
+    color: white !important;
+}
