@@ -50,14 +50,14 @@ body {
   font-family: "Lato", sans-serif;
   font-family: "Oswald", sans-serif;
   list-style-type: none;
-  padding: 15px;
+  /* padding: 15px; */
 }
 
 .navigator > li > a {
   flex: 1;
-  background-color: #333;
+  /* background-color: #333; */
   color: #fff;
-  border: 1px solid;
+  /* border: 1px solid; */
   padding: 0.5rem;
   text-align: center;
   text-decoration: none;
@@ -65,8 +65,8 @@ body {
 }
 .navigator > li > a:hover,
 .navigator > li > a:focus {
-  background-color: #fff;
-  color: #333;
+  background-color: #d83c3c;
+  color: white;
 }
 
 .active {
